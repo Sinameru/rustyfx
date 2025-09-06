@@ -1,0 +1,10 @@
+/home/sinameru/Documents/rustfx/frontend/target/wasm32-unknown-unknown/release/deps/gloo_storage-0dbd47007142da89.d: /home/sinameru/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gloo-storage-0.3.0/src/lib.rs /home/sinameru/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gloo-storage-0.3.0/src/errors.rs /home/sinameru/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gloo-storage-0.3.0/src/local_storage.rs /home/sinameru/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gloo-storage-0.3.0/src/session_storage.rs
+
+/home/sinameru/Documents/rustfx/frontend/target/wasm32-unknown-unknown/release/deps/libgloo_storage-0dbd47007142da89.rlib: /home/sinameru/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gloo-storage-0.3.0/src/lib.rs /home/sinameru/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gloo-storage-0.3.0/src/errors.rs /home/sinameru/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gloo-storage-0.3.0/src/local_storage.rs /home/sinameru/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gloo-storage-0.3.0/src/session_storage.rs
+
+/home/sinameru/Documents/rustfx/frontend/target/wasm32-unknown-unknown/release/deps/libgloo_storage-0dbd47007142da89.rmeta: /home/sinameru/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gloo-storage-0.3.0/src/lib.rs /home/sinameru/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gloo-storage-0.3.0/src/errors.rs /home/sinameru/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gloo-storage-0.3.0/src/local_storage.rs /home/sinameru/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gloo-storage-0.3.0/src/session_storage.rs
+
+/home/sinameru/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gloo-storage-0.3.0/src/lib.rs:
+/home/sinameru/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gloo-storage-0.3.0/src/errors.rs:
+/home/sinameru/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gloo-storage-0.3.0/src/local_storage.rs:
+/home/sinameru/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gloo-storage-0.3.0/src/session_storage.rs:

@@ -1,0 +1,51 @@
+#root {
+    max-width: 400px;
+    width: 100%;
+    padding: 20px;
+}
+
+input, select {
+    width: 100%;
+    margin-bottom: 12px;
+    padding: 8px 12px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+button {
+    width: 100%;
+    padding: 10px 16px;
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+/* Hover do botão */
+button:hover {
+    background-color: #1d4ed8; /* Azul mais escuro */
+}
+
+/* Resultado */
+div.result {
+    margin-top: 16px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #111827; /* cinza escuro */
+}
+
+/* Responsividade simples */
+@media (max-width: 500px) {
+    #root {
+        padding: 10px;
+    }
+    input, select, button {
+        font-size: 14px;
+        padding: 6px 10px;
+    }
+    div.result {
+        font-size: 16px;
+    }
+}
