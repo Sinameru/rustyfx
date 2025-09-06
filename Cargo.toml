@@ -1,13 +1,7 @@
-[package]
-name = "rustyfx"
-version = "0.1.0"
-edition = "2024"
-license = "MIT OR Apache-2.0"
-authors = ["Sinameru sinameru@proton.me"]
-description = "A financial toolkit for currency and crypto conversion in Rust."
-readme = "README.md"
-repository = "https://github.com/sinameru/rustyfx"
-keywords = ["finance", "currency", "crypto", "fx", "trading"]
-categories = ["finance", "cryptography", "cryptography::cryptocurrencies"]
-
-[dependencies]
+[workspace]
+members = [
+    "rustyfx-core",
+    "rustyfx-convert",
+    "rustyfx-crypto",
+    "rustyfx"
+]

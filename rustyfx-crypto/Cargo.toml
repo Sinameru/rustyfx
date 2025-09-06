@@ -1,0 +1,13 @@
+[package]
+name = "rustyfx-crypto"
+version = "0.1.0"
+edition = "2024"
+license = "MIT OR Apache-2.0"
+authors = ["Sinameru <sinameru@proton.me>"]
+description = "Crypto-specific functions for RustyFX."
+readme = "README.md"
+repository = "https://github.com/sinameru/rustyfx"
+
+[dependencies]
+rustyfx-core = { path = "../rustyfx-core" }
+rustyfx-convert = { path = "../rustyfx-convert" }

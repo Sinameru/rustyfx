@@ -1,0 +1,13 @@
+[package]
+name = "rustyfx-convert"
+version = "0.1.0"
+edition = "2024"
+license = "MIT OR Apache-2.0"
+authors = ["Sinameru <sinameru@proton.me>"]
+description = "Currency and crypto conversion utilities."
+readme = "README.md"
+repository = "https://github.com/sinameru/rustyfx"
+
+[dependencies]
+rustyfx-core = { path = "../rustyfx-core" }
+serde = { version = "1.0", features = ["derive"] }
