@@ -24,8 +24,8 @@ dependencies = [
 name = "rustyfx"
 version = "0.1.0"
 dependencies = [
- "rustyfx-convert",
- "rustyfx-core",
+ "rustyfx-convert 0.1.0",
+ "rustyfx-core 0.1.0",
  "rustyfx-crypto",
 ]
 
@@ -33,7 +33,17 @@ dependencies = [
 name = "rustyfx-convert"
 version = "0.1.0"
 dependencies = [
- "rustyfx-core",
+ "rustyfx-core 0.1.0 (registry+https://github.com/rust-lang/crates.io-index)",
+ "serde",
+]
+
+[[package]]
+name = "rustyfx-convert"
+version = "0.1.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "b4853fad1c25c3b63a088b801c8f795ca9d1fd8a905f8609bf10f9fe60f4a92e"
+dependencies = [
+ "rustyfx-core 0.1.0 (registry+https://github.com/rust-lang/crates.io-index)",
  "serde",
 ]
 
@@ -45,11 +55,21 @@ dependencies = [
 ]
 
 [[package]]
+name = "rustyfx-core"
+version = "0.1.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "8864e061036e816358ea43ea37a2ac44db94bcfd5bc9c2d55c8ac9dddfb717cd"
+dependencies = [
+ "serde",
+]
+
+[[package]]
 name = "rustyfx-crypto"
 version = "0.1.0"
 dependencies = [
- "rustyfx-convert",
- "rustyfx-core",
+ "rustyfx-convert 0.1.0 (registry+https://github.com/rust-lang/crates.io-index)",
+ "rustyfx-core 0.1.0 (registry+https://github.com/rust-lang/crates.io-index)",
+ "serde",
 ]
 
 [[package]]
