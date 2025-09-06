@@ -12,5 +12,11 @@ categories = ["finance", "cryptography", "cryptography::cryptocurrencies"]
 
 [dependencies]
 rustyfx-core = "0.1.0"
-rustyfx-convert = "0.1.0"
-rustyfx-crypto = "0.1.0"
+rustyfx-convert = { version = "0.1.0", optional = true }
+rustyfx-crypto = { version = "0.1.0", optional = true }
+
+[features]
+default = []
+convert = ["rustyfx-convert"]
+crypto = ["rustyfx-crypto"]
+all = ["convert", "crypto"]
