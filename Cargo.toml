@@ -6,7 +6,7 @@ license = "MIT OR Apache-2.0"
 authors = ["Sinameru sinameru@proton.me"]
 description = "A financial toolkit for currency and crypto conversion in Rust."
 readme = "README.md"
-repository = "https://github.com/seuuser/rustyfx"
+repository = "https://github.com/sinameru/rustyfx"
 keywords = ["finance", "currency", "crypto", "fx", "trading"]
 categories = ["finance", "cryptography", "data-processing"]
 
