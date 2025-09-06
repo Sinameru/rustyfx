@@ -1,13 +1,15 @@
 [package]
 name = "rustyfx-convert"
 version = "0.1.0"
-edition = "2024"
+edition = "2021"
 license = "MIT OR Apache-2.0"
 authors = ["Sinameru <sinameru@proton.me>"]
-description = "Currency and crypto conversion utilities."
+description = "Currency and crypto conversion utilities for RustyFX."
 readme = "README.md"
 repository = "https://github.com/sinameru/rustyfx"
+keywords = ["finance", "currency", "crypto", "fx"]
+categories = ["finance", "cryptography", "cryptography::cryptocurrencies"]
 
 [dependencies]
-rustyfx-core = { path = "../rustyfx-core" }
+rustyfx-core = "0.1.0"
 serde = { version = "1.0", features = ["derive"] }
