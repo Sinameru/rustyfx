@@ -1,14 +1,16 @@
 [package]
 name = "rustyfx"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 license = "MIT OR Apache-2.0"
 authors = ["Sinameru <sinameru@proton.me>"]
-description = "All-in-one RustyFX: core, conversion and crypto."
+description = "The RustyFX wrapper: a comprehensive Rust toolkit for currency and crypto conversion."
 readme = "README.md"
 repository = "https://github.com/sinameru/rustyfx"
+keywords = ["finance", "currency", "crypto", "fx"]
+categories = ["finance", "cryptography", "cryptography::cryptocurrencies"]
 
 [dependencies]
-rustyfx-core = { path = "../rustyfx-core" }
-rustyfx-convert = { path = "../rustyfx-convert" }
-rustyfx-crypto = { path = "../rustyfx-crypto" }
+rustyfx-core = "0.1.0"
+rustyfx-convert = "0.1.0"
+rustyfx-crypto = "0.1.0"
