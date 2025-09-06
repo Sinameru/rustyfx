@@ -1,14 +1,15 @@
-pub fn add(left: u64, right: u64) -> u64 {
-    left + right
-}
+// rustyfx/src/lib.rs
 
-#[cfg(test)]
-mod tests {
-    use super::*;
+//! RustyFX main wrapper
+//! Import selectively or use everything via `rustyfx::*`
 
-    #[test]
-    fn it_works() {
-        let result = add(2, 2);
-        assert_eq!(result, 4);
-    }
-}
+// Reexport core
+pub use rustyfx_core::*;
+
+// Reexport convert
+#[cfg(feature = "convert")]
+pub use rustyfx_convert::*;
+
+// Reexport crypto
+#[cfg(feature = "crypto")]
+pub use rustyfx_crypto::*;
