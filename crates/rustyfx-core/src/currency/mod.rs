@@ -688,12 +688,10 @@ mod tests {
     fn test_lookup_multiple_entities() {
         let code = "EUR";
         let currency_infos = CURRENCIES.get(code).expect("Currency should exist");
-        println!("Currency infos for {}: {:?}", code, currency_infos);
 
         assert!(currency_infos.len() > 1);
 
         let entities: Vec<_> = currency_infos.iter().map(|c| c.entity).collect();
-        println!("Entities for {}: {:?}", code, entities);
 
         assert!(entities.contains(&"PORTUGAL"));
         assert!(entities.contains(&"FRANCE"));
@@ -723,7 +721,6 @@ mod tests {
     #[test]
     fn test_unique_currency_codes() {
         for (&code, _) in CURRENCIES.entries() {
-            println!("Checking code: {}", code);
             assert_eq!(code.len(), 3);
             assert!(code.chars().all(|c| c.is_ascii_uppercase()));
         }
