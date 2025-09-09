@@ -718,7 +718,6 @@ mod tests {
 
         let code = "JPY"; // 0 minor units
         let info = CURRENCIES.get(code).unwrap().first().unwrap();
-        //println!("JPY info: {:?}", info);
         assert_eq!(info.minor_units, 0);
         assert_eq!(info.numeric, 392);
     }
