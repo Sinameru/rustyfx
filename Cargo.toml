@@ -2,6 +2,11 @@
 members = [
     "crates/rustyfx",
     "crates/rustyfx-core",
-   #"crates/rustyfx-convert",
-   #"crates/rustyfx-crypto", 
+    "misc/curr_unusable_crates/rustyfx-convert",
+    "misc/curr_unusable_crates/rustyfx-crypto",
+]
+
+exclude = [
+    "misc/curr_unusable_crates/rustyfx-convert",
+    "misc/curr_unusable_crates/rustyfx-crypto",
 ]
