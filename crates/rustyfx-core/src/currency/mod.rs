@@ -669,13 +669,10 @@ mod tests {
     fn test_lookup_single_currency() {
         let code = "BDT";
         let currency_infos = CURRENCIES.get(code).expect("Currency should exist");
-        println!("Currency infos for {}: {:?}", code, currency_infos);
 
         assert_eq!(currency_infos.len(), 1);
 
         let info = &currency_infos[0];
-        println!("Code: {}, Numeric: {}, Minor Units: {}, Name: {}, Entity: {}",
-                 info.code, info.numeric, info.minor_units, info.name, info.entity);
 
         assert_eq!(info.code, "BDT");
         assert_eq!(info.numeric, 50);
