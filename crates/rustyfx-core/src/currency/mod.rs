@@ -712,7 +712,6 @@ mod tests {
     fn test_minor_units_and_numeric() {
         let code = "OMR"; // 3 minor units
         let info = CURRENCIES.get(code).unwrap().first().unwrap();
-        println!("OMR info: {:?}", info);
         assert_eq!(info.minor_units, 3);
         assert_eq!(info.numeric, 512);
 
