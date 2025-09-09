@@ -703,7 +703,6 @@ mod tests {
     fn test_currency_not_found() {
         let code = "XXX_NOT_REAL";
         let result = CURRENCIES.get(code);
-        println!("Lookup result for {}: {:?}", code, result);
 
         assert!(result.is_none());
     }
